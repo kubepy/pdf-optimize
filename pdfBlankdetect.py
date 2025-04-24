@@ -1,3 +1,4 @@
+#!/bin/python
 import fitz  # PyMuPDF
 import sys
 import os

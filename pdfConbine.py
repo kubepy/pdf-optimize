@@ -6,7 +6,6 @@ import img2pdf
 path = os.path.dirname(os.path.abspath(__file__))
 os.chdir(path)
 
-# 获取所有 jpg 文件
 all_files = os.listdir(os.getcwd())
 images = [i for i in all_files if i.lower().endswith((".jpg", ".jpeg", ".png"))]
 
